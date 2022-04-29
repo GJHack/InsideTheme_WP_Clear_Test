@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+.blockSericeIcons {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.blockSericeIconsBottom {
+  max-width: 55vw !important;
+}
+.serviceIcon {
+  min-width: 127px;
+  max-width: 127px;
+  margin-left: 0 !important;
+  cursor: pointer;
+}
+.serviceIcon p {
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+	color: #0DA3AD;
+}
+.serviceIcon p:not(:nth-child(2)) {
+	display: none;
+}
+.serviceIcon img {
+  max-width: 127px;
+  max-height: 130px;
+}
+
+.blockPerfects .wp-block-column p {
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+	color: #0DA3AD;
+}
+.allHeaders {
+  color: #0DA3AD;
+  border-bottom: 8px solid #0DA3AD;
+  max-width: max-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 52px;
+  font-weight: bold;
+}
+.blockAboutAss {
+  width: 100%;
+  background-color: #CBEFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.blockAboutAss .wp-block-column {
+ max-width: 600px;
+}
+.blockAboutAss .wp-block-column:first-child {
+	margin-left: 20px;
+}
+.blockAboutAss .wp-block-column:last-child {
+	margin-right: 20px;
+}
+.blockAboutAss .wp-block-column p, .blockAboutAss .wp-block-column ul li {
+   font-family: "PT Sans Narrow", "Helvetica Neue", "sans-serif";
+   color: #0DA3AD;
+   font-size: 21px;
+   line-height: 25px;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+   position: relative;
+}
+.blockAboutAss .wp-block-column ul {
+	margin-left: 143px;
+}
+.blockAboutAss .wp-block-column ul li:not(:first-child) {
+	margin-top: 18px;
+}
+.blockAboutAss .wp-block-column ul li:before {
+}
+.blockAboutAss .wp-block-column p:not(:first-child) {
+ margin-top: 40px;
+}
+.blockPerfects {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blockPerfects .wp-block-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.blockSertificates {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #0DA3AD;
+  padding: 5%;
+}
+.blockSertificates li{
+  max-width: 255px;
+  width: 11vw !important;
+}
+.callBackBlock {
+  max-width: 70vw;
+  margin: auto;
+  border: 3px solid #0DA3AD;
+  padding: 2%;
+}
+.toothList li::before {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  background-image: url('http://localhost/perlamutr/wp-content/uploads/2022/04/smalltooth.png');
+  display: block;
+  position: absolute;
+  left: -40px;
+  background-repeat: no-repeat;
+}
+.metaslider .flex-control-nav li a {
+  background-color: #04636F;
+}
+.wpcf7-form {
+	padding: 5% 20%;
+}
+.wpcf7-form input,.wpcf7-form textarea {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  background-color: #FBFBFD;
+  margin-top: 16px;
+}
+.wpcf7-submit {
+  border-radius: 0px !important;
+  background-color: #04636F !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+	border-color: #0DA3AD !important;
+}
+.captcha-image {
+	border: 2px solid #0DA3AD !important;
+	margin-top: 29px;
+	border-radius: 25px;
+}
+.AboutAsPage {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.AboutAsPage p {
+  font-weight: bold;
+  font-size: 25px;
+	color: #0DA3AD;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+#yamap0 {
+  max-width: 70vw;
+  overflow: hidden;
+  margin: auto;
+}
+.wprs_unslider {
+	position: relative;
+	max-width: 70vw;
+	margin: auto;
+	border: 2px solid #0DA3AD;
+	margin-top: 3%;
+}
+.aboutAsHeader {
+  text-align: left;
+  margin-left: 14.6%;
+}
+.docContainer {
+  min-width: 70vw;
+  max-width: 70vw;
+  margin: auto;
+}
+.docContainer .wp-block-column .wp-block-file a:first-child {
+  color: #0DA3AD;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  text-decoration: none;
+  min-width: 70%;
+  max-width: 70%;
+  transition: all .3s;
+}
+.docContainer .wp-block-column .wp-block-file a:first-child:hover {
+  color: #12c7d1;
+}
+.docContainer .wp-block-column .wp-block-file a:last-child {
+  border-radius: 0px !important;
+  background-color: #0DA3AD;
+}
+.docContainer .wp-block-file {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
